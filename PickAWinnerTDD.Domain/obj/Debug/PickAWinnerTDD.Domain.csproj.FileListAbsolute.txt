@@ -1,0 +1,10 @@
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.Domain\bin\Debug\PickAWinnerTDD.Domain.dll
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.Domain\bin\Debug\PickAWinnerTDD.Domain.pdb
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.Domain\obj\Debug\PickAWinnerTDD.Domain.dll
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.Domain\obj\Debug\PickAWinnerTDD.Domain.pdb
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.Domain\bin\Debug\PickAWinnerTDD.Common.dll
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.Domain\bin\Debug\StructureMap.dll
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.Domain\bin\Debug\PickAWinnerTDD.Common.pdb
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.Domain\bin\Debug\StructureMap.pdb
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.Domain\bin\Debug\StructureMap.xml
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.Domain\obj\Debug\PickAWinnerTDD.Domain.csprojResolveAssemblyReference.cache

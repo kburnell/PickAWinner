@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7dc8b99f-48f9-440a-a5dd-badaf8f859d2" name="kburnell@LT0187 2011-03-01 18:21:42" runUser="SKYLINE\kburnell" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="166b7ed6-0a1c-4d16-9d89-c04109fedbb0">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="kburnell_LT0187 2011-03-01 18_21_42" />
+  </TestSettings>
+  <Times creation="2011-03-01T18:21:42.8560530-06:00" queuing="2011-03-01T18:21:43.3270799-06:00" start="2011-03-01T18:21:43.5460924-06:00" finish="2011-03-01T18:21:45.1291830-06:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="12" executed="12" passed="12" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="DeleteAll_ShouldReturn_NonNull_Boolean" storage="d:\dev\pickawinnertdd\pickawinnertdd.domain.tests.integration\bin\debug\pickawinnertdd.domain.tests.integration.dll" id="49f66c34-c3e2-adfb-0a16-331ad63b568a">
+      <Execution timeOut="1800000" id="384fa101-ff62-4eb1-863f-1cc4ab3563da" />
+      <TestMethod codeBase="D:/Dev/PickAWinnerTDD/PickAWinnerTDD.Domain.Tests.Integration/bin/Debug/PickAWinnerTDD.Domain.Tests.Integration.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PickAWinnerTDD.Domain.Tests.Integration.AttendeeTests, PickAWinnerTDD.Domain.Tests.Integration, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteAll_ShouldReturn_NonNull_Boolean" />
+    </UnitTest>
+    <UnitTest name="SetHasWon_ShouldReturn_NonNull_Boolean" storage="d:\dev\pickawinnertdd\pickawinnertdd.domain.tests.integration\bin\debug\pickawinnertdd.domain.tests.integration.dll" id="8cfe3618-d1c9-5605-260c-93959d60f7e8">
+      <Execution timeOut="1800000" id="647f8f05-6fde-4e8f-9f53-2b502e1280f2" />
+      <TestMethod codeBase="D:/Dev/PickAWinnerTDD/PickAWinnerTDD.Domain.Tests.Integration/bin/Debug/PickAWinnerTDD.Domain.Tests.Integration.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PickAWinnerTDD.Domain.Tests.Integration.AttendeeTests, PickAWinnerTDD.Domain.Tests.Integration, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SetHasWon_ShouldReturn_NonNull_Boolean" />
+    </UnitTest>
+    <UnitTest name="DeleteAll_ShouldReturn_NonNull_Boolean" storage="d:\dev\pickawinnertdd\pickawinnertdd.domain.tests.integration\bin\debug\pickawinnertdd.domain.tests.integration.dll" id="02d7c1f7-87a8-6da4-0719-5ac873ae77d1">
+      <Execution timeOut="1800000" id="bc55002e-bc09-4651-8ecd-8359897805b6" />
+      <TestMethod codeBase="D:/Dev/PickAWinnerTDD/PickAWinnerTDD.Domain.Tests.Integration/bin/Debug/PickAWinnerTDD.Domain.Tests.Integration.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PickAWinnerTDD.Domain.Tests.Integration.WinnerTests, PickAWinnerTDD.Domain.Tests.Integration, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeleteAll_ShouldReturn_NonNull_Boolean" />
+    </UnitTest>
+    <UnitTest name="GetAllBySponsor_ShouldReturn_NonNull_ListOf_SwagDTO" storage="d:\dev\pickawinnertdd\pickawinnertdd.domain.tests.integration\bin\debug\pickawinnertdd.domain.tests.integration.dll" id="be02a3ed-01de-d570-c571-8e162d809e56">
+      <Execution timeOut="1800000" id="2c8c4eb2-018c-4a25-ab01-e0847c731786" />
+      <TestMethod codeBase="D:/Dev/PickAWinnerTDD/PickAWinnerTDD.Domain.Tests.Integration/bin/Debug/PickAWinnerTDD.Domain.Tests.Integration.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PickAWinnerTDD.Domain.Tests.Integration.SwagTests, PickAWinnerTDD.Domain.Tests.Integration, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAllBySponsor_ShouldReturn_NonNull_ListOf_SwagDTO" />
+    </UnitTest>
+    <UnitTest name="GetAll_ShouldReturn_NonNull_ListOf_SswagDTO" storage="d:\dev\pickawinnertdd\pickawinnertdd.domain.tests.integration\bin\debug\pickawinnertdd.domain.tests.integration.dll" id="bdbb7e7a-49c2-8ebf-cf30-7cb7c1fc8e86">
+      <Execution timeOut="1800000" id="0827844f-0c43-4a08-acc6-85bb3104adaf" />
+      <TestMethod codeBase="D:/Dev/PickAWinnerTDD/PickAWinnerTDD.Domain.Tests.Integration/bin/Debug/PickAWinnerTDD.Domain.Tests.Integration.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PickAWinnerTDD.Domain.Tests.Integration.SwagTests, PickAWinnerTDD.Domain.Tests.Integration, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAll_ShouldReturn_NonNull_ListOf_SswagDTO" />
+    </UnitTest>
+    <UnitTest name="GetAll_ShouldReturn_NonNull_ListOf_AttendeeDTO" storage="d:\dev\pickawinnertdd\pickawinnertdd.domain.tests.integration\bin\debug\pickawinnertdd.domain.tests.integration.dll" id="cab632d7-d58f-7638-a939-af41e953c124">
+      <Execution timeOut="1800000" id="da66ff91-5088-4d58-8fcc-32f0e327db58" />
+      <TestMethod codeBase="D:/Dev/PickAWinnerTDD/PickAWinnerTDD.Domain.Tests.Integration/bin/Debug/PickAWinnerTDD.Domain.Tests.Integration.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PickAWinnerTDD.Domain.Tests.Integration.AttendeeTests, PickAWinnerTDD.Domain.Tests.Integration, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAll_ShouldReturn_NonNull_ListOf_AttendeeDTO" />
+    </UnitTest>
+    <UnitTest name="GetAll_ShouldReturn_NonNull_ListOf_SponsorDTO" storage="d:\dev\pickawinnertdd\pickawinnertdd.domain.tests.integration\bin\debug\pickawinnertdd.domain.tests.integration.dll" id="0ce77791-e7f4-a192-2ec6-68059c39e4e4">
+      <Execution timeOut="1800000" id="96069c29-4b4e-440c-9277-5f2c0a5803f4" />
+      <TestMethod codeBase="D:/Dev/PickAWinnerTDD/PickAWinnerTDD.Domain.Tests.Integration/bin/Debug/PickAWinnerTDD.Domain.Tests.Integration.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PickAWinnerTDD.Domain.Tests.Integration.SponsorTests, PickAWinnerTDD.Domain.Tests.Integration, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAll_ShouldReturn_NonNull_ListOf_SponsorDTO" />
+    </UnitTest>
+    <UnitTest name="ResetAllHasWon_ShouldReturn_NonNull_Boolean" storage="d:\dev\pickawinnertdd\pickawinnertdd.domain.tests.integration\bin\debug\pickawinnertdd.domain.tests.integration.dll" id="a0c86c74-35c5-9cb2-dff7-b9184a972905">
+      <Execution timeOut="1800000" id="f7fd8656-2955-4e39-845a-5b625538ba9d" />
+      <TestMethod codeBase="D:/Dev/PickAWinnerTDD/PickAWinnerTDD.Domain.Tests.Integration/bin/Debug/PickAWinnerTDD.Domain.Tests.Integration.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PickAWinnerTDD.Domain.Tests.Integration.AttendeeTests, PickAWinnerTDD.Domain.Tests.Integration, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ResetAllHasWon_ShouldReturn_NonNull_Boolean" />
+    </UnitTest>
+    <UnitTest name="GetAllThatProvidedSwag_ShouldReturn_NonNull_ListOf_SponsorDTO" storage="d:\dev\pickawinnertdd\pickawinnertdd.domain.tests.integration\bin\debug\pickawinnertdd.domain.tests.integration.dll" id="36f2e44b-0d78-adb7-2d1b-1d7dfb80108d">
+      <Execution timeOut="1800000" id="4aa649cc-553d-4ed7-9d58-982e88f341a2" />
+      <TestMethod codeBase="D:/Dev/PickAWinnerTDD/PickAWinnerTDD.Domain.Tests.Integration/bin/Debug/PickAWinnerTDD.Domain.Tests.Integration.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PickAWinnerTDD.Domain.Tests.Integration.SponsorTests, PickAWinnerTDD.Domain.Tests.Integration, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAllThatProvidedSwag_ShouldReturn_NonNull_ListOf_SponsorDTO" />
+    </UnitTest>
+    <UnitTest name="InsertAll_ShouldReturn_NonNull_Boolean" storage="d:\dev\pickawinnertdd\pickawinnertdd.domain.tests.integration\bin\debug\pickawinnertdd.domain.tests.integration.dll" id="385ff7ca-ebba-5090-0830-c848a741f25e">
+      <Execution timeOut="1800000" id="4388dcfc-ac42-4497-874b-3e3ff59acfce" />
+      <TestMethod codeBase="D:/Dev/PickAWinnerTDD/PickAWinnerTDD.Domain.Tests.Integration/bin/Debug/PickAWinnerTDD.Domain.Tests.Integration.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PickAWinnerTDD.Domain.Tests.Integration.AttendeeTests, PickAWinnerTDD.Domain.Tests.Integration, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InsertAll_ShouldReturn_NonNull_Boolean" />
+    </UnitTest>
+    <UnitTest name="Insert_ShouldReturn_NonNull_Boolean" storage="d:\dev\pickawinnertdd\pickawinnertdd.domain.tests.integration\bin\debug\pickawinnertdd.domain.tests.integration.dll" id="688be246-a05d-cb54-1a5d-785f82e70217">
+      <Execution timeOut="1800000" id="7509d305-3c60-44d5-b80b-091056a2285f" />
+      <TestMethod codeBase="D:/Dev/PickAWinnerTDD/PickAWinnerTDD.Domain.Tests.Integration/bin/Debug/PickAWinnerTDD.Domain.Tests.Integration.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PickAWinnerTDD.Domain.Tests.Integration.WinnerTests, PickAWinnerTDD.Domain.Tests.Integration, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Insert_ShouldReturn_NonNull_Boolean" />
+    </UnitTest>
+    <UnitTest name="GetAllEligible_ShouldReturn_NonNull_ListOf_AttendeeDTO" storage="d:\dev\pickawinnertdd\pickawinnertdd.domain.tests.integration\bin\debug\pickawinnertdd.domain.tests.integration.dll" id="c444237f-2bed-273b-e9a8-9bcb726c63aa">
+      <Execution timeOut="1800000" id="b86e7794-c45e-49af-b19f-ef2cb559ff64" />
+      <TestMethod codeBase="D:/Dev/PickAWinnerTDD/PickAWinnerTDD.Domain.Tests.Integration/bin/Debug/PickAWinnerTDD.Domain.Tests.Integration.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PickAWinnerTDD.Domain.Tests.Integration.AttendeeTests, PickAWinnerTDD.Domain.Tests.Integration, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetAllEligible_ShouldReturn_NonNull_ListOf_AttendeeDTO" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="49f66c34-c3e2-adfb-0a16-331ad63b568a" executionId="384fa101-ff62-4eb1-863f-1cc4ab3563da" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cab632d7-d58f-7638-a939-af41e953c124" executionId="da66ff91-5088-4d58-8fcc-32f0e327db58" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c444237f-2bed-273b-e9a8-9bcb726c63aa" executionId="b86e7794-c45e-49af-b19f-ef2cb559ff64" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="385ff7ca-ebba-5090-0830-c848a741f25e" executionId="4388dcfc-ac42-4497-874b-3e3ff59acfce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a0c86c74-35c5-9cb2-dff7-b9184a972905" executionId="f7fd8656-2955-4e39-845a-5b625538ba9d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8cfe3618-d1c9-5605-260c-93959d60f7e8" executionId="647f8f05-6fde-4e8f-9f53-2b502e1280f2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0ce77791-e7f4-a192-2ec6-68059c39e4e4" executionId="96069c29-4b4e-440c-9277-5f2c0a5803f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="36f2e44b-0d78-adb7-2d1b-1d7dfb80108d" executionId="4aa649cc-553d-4ed7-9d58-982e88f341a2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bdbb7e7a-49c2-8ebf-cf30-7cb7c1fc8e86" executionId="0827844f-0c43-4a08-acc6-85bb3104adaf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="be02a3ed-01de-d570-c571-8e162d809e56" executionId="2c8c4eb2-018c-4a25-ab01-e0847c731786" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="02d7c1f7-87a8-6da4-0719-5ac873ae77d1" executionId="bc55002e-bc09-4651-8ecd-8359897805b6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="688be246-a05d-cb54-1a5d-785f82e70217" executionId="7509d305-3c60-44d5-b80b-091056a2285f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="384fa101-ff62-4eb1-863f-1cc4ab3563da" testId="49f66c34-c3e2-adfb-0a16-331ad63b568a" testName="DeleteAll_ShouldReturn_NonNull_Boolean" computerName="LT0187" duration="00:00:00.3387166" startTime="2011-03-01T18:21:43.6010956-06:00" endTime="2011-03-01T18:21:44.0151193-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="384fa101-ff62-4eb1-863f-1cc4ab3563da">
+    </UnitTestResult>
+    <UnitTestResult executionId="da66ff91-5088-4d58-8fcc-32f0e327db58" testId="cab632d7-d58f-7638-a939-af41e953c124" testName="GetAll_ShouldReturn_NonNull_ListOf_AttendeeDTO" computerName="LT0187" duration="00:00:00.0756455" startTime="2011-03-01T18:21:44.0181194-06:00" endTime="2011-03-01T18:21:44.0951238-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="da66ff91-5088-4d58-8fcc-32f0e327db58">
+    </UnitTestResult>
+    <UnitTestResult executionId="b86e7794-c45e-49af-b19f-ef2cb559ff64" testId="c444237f-2bed-273b-e9a8-9bcb726c63aa" testName="GetAllEligible_ShouldReturn_NonNull_ListOf_AttendeeDTO" computerName="LT0187" duration="00:00:00.0020657" startTime="2011-03-01T18:21:44.0991241-06:00" endTime="2011-03-01T18:21:44.1021242-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b86e7794-c45e-49af-b19f-ef2cb559ff64">
+    </UnitTestResult>
+    <UnitTestResult executionId="4388dcfc-ac42-4497-874b-3e3ff59acfce" testId="385ff7ca-ebba-5090-0830-c848a741f25e" testName="InsertAll_ShouldReturn_NonNull_Boolean" computerName="LT0187" duration="00:00:00.0027156" startTime="2011-03-01T18:21:44.1051244-06:00" endTime="2011-03-01T18:21:44.1081246-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4388dcfc-ac42-4497-874b-3e3ff59acfce">
+    </UnitTestResult>
+    <UnitTestResult executionId="f7fd8656-2955-4e39-845a-5b625538ba9d" testId="a0c86c74-35c5-9cb2-dff7-b9184a972905" testName="ResetAllHasWon_ShouldReturn_NonNull_Boolean" computerName="LT0187" duration="00:00:00.0020368" startTime="2011-03-01T18:21:44.1111248-06:00" endTime="2011-03-01T18:21:44.1141249-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f7fd8656-2955-4e39-845a-5b625538ba9d">
+    </UnitTestResult>
+    <UnitTestResult executionId="647f8f05-6fde-4e8f-9f53-2b502e1280f2" testId="8cfe3618-d1c9-5605-260c-93959d60f7e8" testName="SetHasWon_ShouldReturn_NonNull_Boolean" computerName="LT0187" duration="00:00:00.0020881" startTime="2011-03-01T18:21:44.1171251-06:00" endTime="2011-03-01T18:21:44.1201253-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="647f8f05-6fde-4e8f-9f53-2b502e1280f2">
+    </UnitTestResult>
+    <UnitTestResult executionId="96069c29-4b4e-440c-9277-5f2c0a5803f4" testId="0ce77791-e7f4-a192-2ec6-68059c39e4e4" testName="GetAll_ShouldReturn_NonNull_ListOf_SponsorDTO" computerName="LT0187" duration="00:00:00.0048955" startTime="2011-03-01T18:21:44.1221254-06:00" endTime="2011-03-01T18:21:44.1281257-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="96069c29-4b4e-440c-9277-5f2c0a5803f4">
+    </UnitTestResult>
+    <UnitTestResult executionId="4aa649cc-553d-4ed7-9d58-982e88f341a2" testId="36f2e44b-0d78-adb7-2d1b-1d7dfb80108d" testName="GetAllThatProvidedSwag_ShouldReturn_NonNull_ListOf_SponsorDTO" computerName="LT0187" duration="00:00:00.0013298" startTime="2011-03-01T18:21:44.1301258-06:00" endTime="2011-03-01T18:21:44.1321260-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4aa649cc-553d-4ed7-9d58-982e88f341a2">
+    </UnitTestResult>
+    <UnitTestResult executionId="0827844f-0c43-4a08-acc6-85bb3104adaf" testId="bdbb7e7a-49c2-8ebf-cf30-7cb7c1fc8e86" testName="GetAll_ShouldReturn_NonNull_ListOf_SswagDTO" computerName="LT0187" duration="00:00:00.0033051" startTime="2011-03-01T18:21:44.1341261-06:00" endTime="2011-03-01T18:21:44.1391264-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0827844f-0c43-4a08-acc6-85bb3104adaf">
+    </UnitTestResult>
+    <UnitTestResult executionId="2c8c4eb2-018c-4a25-ab01-e0847c731786" testId="be02a3ed-01de-d570-c571-8e162d809e56" testName="GetAllBySponsor_ShouldReturn_NonNull_ListOf_SwagDTO" computerName="LT0187" duration="00:00:00.0012670" startTime="2011-03-01T18:21:44.1411265-06:00" endTime="2011-03-01T18:21:44.1441266-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2c8c4eb2-018c-4a25-ab01-e0847c731786">
+    </UnitTestResult>
+    <UnitTestResult executionId="bc55002e-bc09-4651-8ecd-8359897805b6" testId="02d7c1f7-87a8-6da4-0719-5ac873ae77d1" testName="DeleteAll_ShouldReturn_NonNull_Boolean" computerName="LT0187" duration="00:00:00.4026510" startTime="2011-03-01T18:21:44.1471268-06:00" endTime="2011-03-01T18:21:44.5511499-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bc55002e-bc09-4651-8ecd-8359897805b6">
+    </UnitTestResult>
+    <UnitTestResult executionId="7509d305-3c60-44d5-b80b-091056a2285f" testId="688be246-a05d-cb54-1a5d-785f82e70217" testName="Insert_ShouldReturn_NonNull_Boolean" computerName="LT0187" duration="00:00:00.5000721" startTime="2011-03-01T18:21:44.5601504-06:00" endTime="2011-03-01T18:21:45.0621792-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7509d305-3c60-44d5-b80b-091056a2285f">
+    </UnitTestResult>
+  </Results>
+</TestRun>

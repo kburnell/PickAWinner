@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d28dea30-8556-40c7-8296-9ec4ae57d884" name="kburnell@LT0187 2011-02-27 11:02:58" runUser="SKYLINE\kburnell" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="7aa16dfe-b003-41f3-9e89-0824db8065e6">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="kburnell_LT0187 2011-02-27 11_02_58" />
+  </TestSettings>
+  <Times creation="2011-02-27T11:02:58.0212689-06:00" queuing="2011-02-27T11:02:58.7113084-06:00" start="2011-02-27T11:02:58.9493220-06:00" finish="2011-02-27T11:02:59.6893643-06:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="InsertAll_ShouldReturn_NonNull_Boolean" storage="d:\dev\pickawinnertdd\pickawinnertdd.domain.tests.integration\bin\debug\pickawinnertdd.domain.tests.integration.dll" id="385ff7ca-ebba-5090-0830-c848a741f25e">
+      <Execution timeOut="1800000" id="95f9c3cd-1728-4ead-8962-595c6c362158" />
+      <TestMethod codeBase="D:/Dev/PickAWinnerTDD/PickAWinnerTDD.Domain.Tests.Integration/bin/Debug/PickAWinnerTDD.Domain.Tests.Integration.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PickAWinnerTDD.Domain.Tests.Integration.AttendeeTests, PickAWinnerTDD.Domain.Tests.Integration, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InsertAll_ShouldReturn_NonNull_Boolean" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="385ff7ca-ebba-5090-0830-c848a741f25e" executionId="95f9c3cd-1728-4ead-8962-595c6c362158" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="95f9c3cd-1728-4ead-8962-595c6c362158" testId="385ff7ca-ebba-5090-0830-c848a741f25e" testName="InsertAll_ShouldReturn_NonNull_Boolean" computerName="LT0187" duration="00:00:00.5430595" startTime="2011-02-27T11:02:59.0023250-06:00" endTime="2011-02-27T11:02:59.6153601-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="95f9c3cd-1728-4ead-8962-595c6c362158">
+    </UnitTestResult>
+  </Results>
+</TestRun>

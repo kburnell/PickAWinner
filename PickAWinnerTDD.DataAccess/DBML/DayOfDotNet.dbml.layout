@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DayOfDotNet">
+  <DataContextMoniker Name="/DayOfDotNetDataContext" />
+  <nestedChildShapes>
+    <classShape Id="ba514359-f234-426a-a93b-ba47b3cd6922" absoluteBounds="3.5, 1.25, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/DayOfDotNetDataContext/Attendee" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2c3a42cb-2ebd-42ee-a5c5-8ce327a537f3" absoluteBounds="3.515, 1.71, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9242a78d-ba43-4228-ba55-327369163bb8" absoluteBounds="6.25, 3.5, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/DayOfDotNetDataContext/Winner" />
+      <nestedChildShapes>
+        <elementListCompartment Id="535c1f14-d388-438f-8ca8-f2f923bfcbdf" absoluteBounds="6.265, 3.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d8ce68d7-ed1f-4fa2-ae78-17cbba6bf544" absoluteBounds="3.5, 4.875, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/DayOfDotNetDataContext/Swag" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0ed56276-ccc6-4d7e-99fd-addb0ea5e686" absoluteBounds="3.515, 5.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 2.32774983723958); (7.25 : 2.32774983723958); (7.25 : 3.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayOfDotNetDataContext/Attendee/Attendee_Winner" />
+      <nodes>
+        <classShapeMoniker Id="ba514359-f234-426a-a93b-ba47b3cd6922" />
+        <classShapeMoniker Id="9242a78d-ba43-4228-ba55-327369163bb8" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 5.07294840494792); (6.25 : 5.07294840494792)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DayOfDotNetDataContext/Swag/Swag_Winner" />
+      <nodes>
+        <classShapeMoniker Id="d8ce68d7-ed1f-4fa2-ae78-17cbba6bf544" />
+        <classShapeMoniker Id="9242a78d-ba43-4228-ba55-327369163bb8" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="b4f0bc10-496d-478f-922b-5f51bd025897" absoluteBounds="0.75, 2.125, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/DayOfDotNetDataContext/Sponsor" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5195fbc6-9f51-4f9c-b9da-e13a36c2fe4a" absoluteBounds="0.76500000000000012, 2.585, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 3.98640055338542); (6.25 : 3.98640055338542)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DayOfDotNetDataContext/Sponsor/Sponsor_Winner" />
+      <nodes>
+        <classShapeMoniker Id="b4f0bc10-496d-478f-922b-5f51bd025897" />
+        <classShapeMoniker Id="9242a78d-ba43-4228-ba55-327369163bb8" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.75 : 4.47280110677083); (1.75 : 5.76044840494792); (3.5 : 5.76044840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DayOfDotNetDataContext/Sponsor/Sponsor_Swag" />
+      <nodes>
+        <classShapeMoniker Id="b4f0bc10-496d-478f-922b-5f51bd025897" />
+        <classShapeMoniker Id="d8ce68d7-ed1f-4fa2-ae78-17cbba6bf544" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

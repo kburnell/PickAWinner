@@ -1,0 +1,5 @@
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.UI.Tests.Features\bin\Debug\PickAWinnerTDD.UI.Tests.Features.dll
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.UI.Tests.Features\bin\Debug\PickAWinnerTDD.UI.Tests.Features.pdb
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.UI.Tests.Features\obj\Debug\ResolveAssemblyReference.cache
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.UI.Tests.Features\obj\Debug\PickAWinnerTDD.UI.Tests.Features.dll
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.UI.Tests.Features\obj\Debug\PickAWinnerTDD.UI.Tests.Features.pdb

@@ -1,0 +1,14 @@
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.UnitTesting\bin\Debug\PickAWinnerTDD.UnitTesting.dll
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.UnitTesting\bin\Debug\PickAWinnerTDD.UnitTesting.pdb
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.UnitTesting\bin\Debug\PickAWinnerTDD.Common.dll
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.UnitTesting\bin\Debug\PickAWinnerTDD.Domain.dll
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.UnitTesting\bin\Debug\StructureMap.dll
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.UnitTesting\bin\Debug\PickAWinnerTDD.Common.pdb
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.UnitTesting\bin\Debug\PickAWinnerTDD.Domain.pdb
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.UnitTesting\bin\Debug\StructureMap.pdb
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.UnitTesting\bin\Debug\StructureMap.xml
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.UnitTesting\obj\Debug\PickAWinnerTDD.UnitTesting.dll
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.UnitTesting\obj\Debug\PickAWinnerTDD.UnitTesting.pdb
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.UnitTesting\bin\Debug\PickAWinnerTDD.DataAccess.dll
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.UnitTesting\bin\Debug\PickAWinnerTDD.DataAccess.pdb
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.UnitTesting\obj\Debug\PickAWinnerTDD.UnitTesting.csprojResolveAssemblyReference.cache

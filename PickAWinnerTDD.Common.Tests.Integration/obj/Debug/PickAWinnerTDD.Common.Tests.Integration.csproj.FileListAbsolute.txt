@@ -1,0 +1,4 @@
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.Common.Tests.Integration\bin\Debug\PickAWinnerTDD.Common.Tests.Integration.dll
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.Common.Tests.Integration\bin\Debug\PickAWinnerTDD.Common.Tests.Integration.pdb
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.Common.Tests.Integration\obj\Debug\PickAWinnerTDD.Common.Tests.Integration.dll
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.Common.Tests.Integration\obj\Debug\PickAWinnerTDD.Common.Tests.Integration.pdb

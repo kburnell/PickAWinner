@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DayOfDotNetTDD" Class="DayOfDotNetDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=localhost;Initial Catalog=DayOfDotNetTDD;Integrated Security=True" SettingsObjectName="PickAWinnerTDD.DataAccess.Properties.Settings" SettingsPropertyName="DayOfDotNetTDDConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Attendee" Member="Attendees">
+    <Type Name="Attendee">
+      <Column Name="AttendeeID" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="LastName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Company" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="HasWon" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsEligible" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="Attendee_Winner" Member="Winners" ThisKey="AttendeeID" OtherKey="AttendeeID" Type="Winner" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Winner" Member="Winners">
+    <Type Name="Winner">
+      <Column Name="WinnerID" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="AttendeeID" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="SponsorID" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="SwagID" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(150) NOT NULL" CanBeNull="false" />
+      <Association Name="Attendee_Winner" Member="Attendee" ThisKey="AttendeeID" OtherKey="AttendeeID" Type="Attendee" IsForeignKey="true" />
+      <Association Name="Swag_Winner" Member="Swag" ThisKey="SwagID" OtherKey="SwagID" Type="Swag" IsForeignKey="true" />
+      <Association Name="Sponsor_Winner" Member="Sponsor" ThisKey="SponsorID" OtherKey="SponsorID" Type="Sponsor" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Swag" Member="Swags">
+    <Type Name="Swag">
+      <Column Name="SwagID" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="SponsorID" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(150) NOT NULL" CanBeNull="false" />
+      <Column Name="ImageLocation" Type="System.String" DbType="VarChar(150) NOT NULL" CanBeNull="false" />
+      <Column Name="Position" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Swag_Winner" Member="Winners" ThisKey="SwagID" OtherKey="SwagID" Type="Winner" />
+      <Association Name="Sponsor_Swag" Member="Sponsor" ThisKey="SponsorID" OtherKey="SponsorID" Type="Sponsor" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Sponsor" Member="Sponsors">
+    <Type Name="Sponsor">
+      <Column Name="SponsorID" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(75) NOT NULL" CanBeNull="false" />
+      <Column Name="ContactName" Type="System.String" DbType="VarChar(75)" CanBeNull="true" />
+      <Column Name="ContactEmail" Type="System.String" DbType="VarChar(75)" CanBeNull="true" />
+      <Column Name="SponsorshipLevel" Type="System.String" DbType="VarChar(25) NOT NULL" CanBeNull="false" />
+      <Column Name="ImageLocation" Type="System.String" DbType="VarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="Position" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ProvidedSwag" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="Sponsor_Winner" Member="Winners" ThisKey="SponsorID" OtherKey="SponsorID" Type="Winner" />
+      <Association Name="Sponsor_Swag" Member="Swags" ThisKey="SponsorID" OtherKey="SponsorID" Type="Swag" />
+    </Type>
+  </Table>
+</Database>

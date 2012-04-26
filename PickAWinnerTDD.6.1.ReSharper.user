@@ -1,0 +1,465 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="38" />
+      <Item value="long" priority="23" />
+      <Item value="string" priority="16" />
+      <Item value="int" priority="4" />
+      <Item value="bool" priority="19" />
+      <Item value="IList" priority="22" />
+      <Item value="OnTestStoppingEventArgs`0" priority="0" />
+      <Item value="void" priority="13" />
+      <Item value="using" priority="27" />
+      <Item value="PickAWinnerTDD" priority="1" />
+      <Item value="DataAccess" priority="1" />
+      <Item value="DBML" priority="1" />
+      <Item value="DayOfDotNetDataContext`0" priority="13" />
+      <Item value="new" priority="83" />
+      <Item value="DayOfDotNetDataContext" priority="5" />
+      <Item value="expectedCount" priority="1" />
+      <Item value="from" priority="27" />
+      <Item value="dc" priority="26" />
+      <Item value="select" priority="23" />
+      <Item value="attendeeRepository" priority="3" />
+      <Item value="AttendeeRepository`0" priority="4" />
+      <Item value="attendees" priority="8" />
+      <Item value="TestMethod" priority="1" />
+      <Item value="List&lt;AttendeeDTO&gt;" priority="12" />
+      <Item value="Attendee`0" priority="9" />
+      <Item value="List&lt;Attendee&gt;" priority="1" />
+      <Item value="orderby" priority="2" />
+      <Item value="attendeeDTOList" priority="2" />
+      <Item value="AttendeeDTO`0" priority="13" />
+      <Item value="AttendeeID" priority="6" />
+      <Item value="FirstName" priority="4" />
+      <Item value="LastName" priority="5" />
+      <Item value="Email" priority="6" />
+      <Item value="Company" priority="6" />
+      <Item value="HasWon" priority="5" />
+      <Item value="x" priority="13" />
+      <Item value="IsEligible" priority="5" />
+      <Item value="return" priority="51" />
+      <Item value="where" priority="21" />
+      <Item value="prop" priority="1" />
+      <Item value="ISponsorRepository`0" priority="7" />
+      <Item value="SponsorRepository`0" priority="0" />
+      <Item value="List&lt;SponsorDTO&gt;" priority="2" />
+      <Item value="sponsors" priority="5" />
+      <Item value="DivideByZeroException`0" priority="0" />
+      <Item value="SponsorDTO`0" priority="7" />
+      <Item value="SponsorID" priority="2" />
+      <Item value="Name" priority="6" />
+      <Item value="ContactEmail" priority="1" />
+      <Item value="SponsorshipLeve" priority="0" />
+      <Item value="ImageLocation" priority="1" />
+      <Item value="Position" priority="2" />
+      <Item value="ProvidedSwag" priority="0" />
+      <Item value="SwagDTO`0" priority="3" />
+      <Item value="SwagID" priority="4" />
+      <Item value="sponsorID" priority="9" />
+      <Item value="swags" priority="3" />
+      <Item value="TransactionScope" priority="0" />
+      <Item value="transaction" priority="0" />
+      <Item value="attendee" priority="6" />
+      <Item value="true" priority="21" />
+      <Item value="IAttendeeRepository`0" priority="6" />
+      <Item value="repo" priority="3" />
+      <Item value="attendeeID" priority="10" />
+      <Item value="successful" priority="2" />
+      <Item value="var" priority="9" />
+      <Item value="false" priority="4" />
+      <Item value="if" priority="0" />
+      <Item value="Winner" priority="3" />
+      <Item value="Winner`0" priority="2" />
+      <Item value="Attendee" priority="1" />
+      <Item value="Sponsor" priority="1" />
+      <Item value="swagID" priority="2" />
+      <Item value="name" priority="1" />
+      <Item value="winner" priority="13" />
+      <Item value="pulledWinner" priority="0" />
+      <Item value="IWinnerRepository" priority="0" />
+      <Item value="retrievedWinner" priority="4" />
+      <Item value="w" priority="0" />
+      <Item value="TransactionScope`0" priority="1" />
+      <Item value="WinnerDTO`0" priority="2" />
+      <Item value="WinnerDTO" priority="3" />
+      <Item value="IWinnerRepository`0" priority="3" />
+      <Item value="WinnerRepository`0" priority="0" />
+      <Item value="rep" priority="1" />
+      <Item value="success" priority="2" />
+      <Item value="_stubRepo" priority="8" />
+      <Item value="private" priority="7" />
+      <Item value="_repository" priority="13" />
+      <Item value="GetAll_ShouldReturn_NonNull_ListOf_AttendeeDTO`0" priority="0" />
+      <Item value="AttendeeDTO" priority="2" />
+      <Item value="Expect`0" priority="0" />
+      <Item value="Replay`1" priority="0" />
+      <Item value="attendee1" priority="2" />
+      <Item value="attendee2" priority="0" />
+      <Item value="InternalsVisibleTo" priority="1" />
+      <Item value="_mockRepository" priority="3" />
+      <Item value="attendeeDtos" priority="11" />
+      <Item value="returnSuccess" priority="2" />
+      <Item value="char" priority="0" />
+      <Item value="FakeAttendeeRepository`0" priority="0" />
+      <Item value="_attendees" priority="6" />
+      <Item value="attendeeDTO" priority="0" />
+      <Item value="typeof" priority="5" />
+      <Item value="List" priority="0" />
+      <Item value="_attendeeDtos" priority="0" />
+      <Item value="Assert`0" priority="3" />
+      <Item value="BooleanAssertionExtensions`0" priority="0" />
+      <Item value="sponsor" priority="0" />
+      <Item value="tw" priority="1" />
+      <Item value="tt" priority="2" />
+      <Item value="SponsorRepositoryStub`0" priority="0" />
+      <Item value="ISwagRepository`0" priority="2" />
+      <Item value="repository" priority="1" />
+      <Item value="ISwag`0" priority="2" />
+      <Item value="_swagDtos" priority="2" />
+      <Item value="SwagRepositoryStub`0" priority="0" />
+      <Item value="null" priority="0" />
+      <Item value="WinnerRepositoryStub`0" priority="0" />
+      <Item value="_attendee" priority="6" />
+      <Item value="IAttendee`0" priority="0" />
+      <Item value="ISponsor`0" priority="1" />
+      <Item value="_mockAttendee" priority="7" />
+      <Item value="AttendeeService`0" priority="9" />
+      <Item value="assembly" priority="0" />
+      <Item value="_mockDomain" priority="0" />
+      <Item value="_swag" priority="1" />
+      <Item value="_winner" priority="1" />
+      <Item value="IWinner`0" priority="2" />
+      <Item value="_sponsors" priority="2" />
+      <Item value="List&lt;SwagDTO&gt;" priority="0" />
+      <Item value="_swags" priority="1" />
+      <Item value="List&lt;WinnerDTO&gt;" priority="0" />
+      <Item value="myRepo" priority="0" />
+      <Item value="override" priority="0" />
+      <Item value="StructureMapBootstrapper`0" priority="0" />
+      <Item value="_totalCount" priority="0" />
+      <Item value="SponsorService`0" priority="0" />
+      <Item value="Exception`0" priority="0" />
+      <Item value="NewsStyleUriParser`0" priority="0" />
+      <Item value="WinnerService`0" priority="3" />
+      <Item value="theWinner" priority="1" />
+      <Item value="AttendeeService" priority="0" />
+      <Item value="Service" priority="1" />
+      <Item value="_winners" priority="0" />
+      <Item value="TransactionScopeOption`0" priority="0" />
+      <Item value="DependentCloneOption`0" priority="0" />
+      <Item value="IAttendeeService`0" priority="0" />
+      <Item value="_window" priority="9" />
+      <Item value="button" priority="2" />
+      <Item value="Button`0" priority="1" />
+      <Item value="searchCriteria" priority="0" />
+      <Item value="static" priority="0" />
+      <Item value="SearchCriteria`0" priority="1" />
+      <Item value="Panel`0" priority="0" />
+      <Item value="adminButton" priority="0" />
+      <Item value="swagName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PickAWinnerTDD.DataAccess.DBML.DayOfDotNetDataContext">
+      <Item value="Attendees" priority="10" />
+      <Item value="Sponsors" priority="2" />
+      <Item value="SubmitChanges`0" priority="5" />
+      <Item value="ExecuteCommand`0" priority="3" />
+      <Item value="Swags" priority="0" />
+      <Item value="Winners" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
+      <Item value="Count`1" priority="2" />
+      <Item value="ToList`1" priority="1" />
+      <Item value="FirstOrDefault`1" priority="3" />
+      <Item value="First`1" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PickAWinnerTDD.Common.Interfaces.Repository.IAttendeeRepository">
+      <Item value="GetAll`0" priority="3" />
+      <Item value="SetHasWon`0" priority="2" />
+      <Item value="ResetAllHasWon`0" priority="2" />
+      <Item value="DeleteAll`0" priority="3" />
+      <Item value="Expect`2" priority="0" />
+      <Item value="Replay`1" priority="0" />
+      <Item value="GetAllEligible`0" priority="0" />
+      <Item value="InsertAll`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
+      <Item value="Count" priority="2" />
+      <Item value="Add`0" priority="1" />
+      <Item value="ShouldBeType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PickAWinnerTDD.DataAccess.DBML.Attendee">
+      <Item value="LastName" priority="1" />
+      <Item value="AttendeeID" priority="5" />
+      <Item value="FirstName" priority="0" />
+      <Item value="Email" priority="0" />
+      <Item value="Company" priority="0" />
+      <Item value="HasWon" priority="4" />
+      <Item value="IsEligible" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PickAWinnerTDD.Common.DataTransferObjects.AttendeeDTO">
+      <Item value="IsEligible" priority="2" />
+      <Item value="AttendeeID" priority="2" />
+      <Item value="HasWon" priority="0" />
+      <Item value="FirstName" priority="0" />
+      <Item value="LastName" priority="0" />
+      <Item value="Company" priority="0" />
+      <Item value="Email" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="Count`1" priority="2" />
+      <Item value="Distinct`1" priority="0" />
+      <Item value="ToList`1" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ShouldEqual`1" priority="5" />
+      <Item value="CompareTo`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PickAWinnerTDD.DataAccess.DBML.Sponsor">
+      <Item value="SponsorID" priority="2" />
+      <Item value="Name" priority="0" />
+      <Item value="ContactName" priority="0" />
+      <Item value="ContactEmail" priority="0" />
+      <Item value="SponsorshipLevel" priority="0" />
+      <Item value="ImageLocation" priority="0" />
+      <Item value="Position" priority="0" />
+      <Item value="ProvidedSwag" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PickAWinnerTDD.Common.DataTransferObjects.SponsorDTO">
+      <Item value="ProvidedSwag" priority="1" />
+      <Item value="SponsorID" priority="0" />
+      <Item value="Position" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PickAWinnerTDD.DataAccess.DBML.Swag">
+      <Item value="SwagID" priority="1" />
+      <Item value="ImageLocation" priority="0" />
+      <Item value="Position" priority="0" />
+      <Item value="SponsorID" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PickAWinnerTDD.Common.DataTransferObjects.SwagDTO">
+      <Item value="SponsorID" priority="2" />
+      <Item value="SwagID" priority="0" />
+      <Item value="Position" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int64">
+      <Item value="ShouldEqual`1" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Boolean">
+      <Item value="ShouldBeTrue`0" priority="5" />
+      <Item value="ShouldEqual`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Linq.Table`1">
+      <Item value="InsertOnSubmit`0" priority="2" />
+      <Item value="InsertAllOnSubmit`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PickAWinnerTDD.DataAccess.DBML.Winner">
+      <Item value="AttendeeID" priority="2" />
+      <Item value="SponsorID" priority="0" />
+      <Item value="SwagID" priority="0" />
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PickAWinnerTDD.Common.Interfaces.Repository.IWinnerRepository">
+      <Item value="Insert`0" priority="1" />
+      <Item value="DeleteAll`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PickAWinnerTDD.Common.DataTransferObjects.WinnerDTO">
+      <Item value="AttendeeID" priority="1" />
+      <Item value="SponsorID" priority="0" />
+      <Item value="SwagID" priority="0" />
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="ShouldEqual`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PickAWinnerTDD.Common.StructureMapDependencyResolver">
+      <Item value="GetConcreteInstanceOf`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rhino.Mocks.Interfaces.IMethodOptions`1">
+      <Item value="Return`0" priority="1" />
+      <Item value="Repeat" priority="1" />
+      <Item value="IgnoreArguments`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rhino.Mocks.Interfaces.IRepeat`1">
+      <Item value="Once`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Rhino.Mocks.MockRepository">
+      <Item value="ReplayAll`0" priority="1" />
+      <Item value="VerifyAll`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PickAWinnerTDD.Common.Interfaces.Domain.IAttendee">
+      <Item value="GetAll`0" priority="1" />
+      <Item value="SetHasWon`0" priority="1" />
+      <Item value="ResetAllHasWon`0" priority="2" />
+      <Item value="DeleteAll`0" priority="2" />
+      <Item value="GetAllEligible`0" priority="0" />
+      <Item value="InsertAll`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PickAWinnerTDD.Domain.Tests.Unit.Stubing.Stubs.StructureMapBootstrapperStub">
+      <Item value="BootstrapStructureMap`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
+      <Item value="IsInstanceOfType`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PickAWinnerTDD.Common.Interfaces.Repository.ISponsorRepository">
+      <Item value="Expect`2" priority="0" />
+      <Item value="GetAll`0" priority="1" />
+      <Item value="GetAllThatProvidedSwag`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PickAWinnerTDD.Common.Interfaces.Domain.ISponsor">
+      <Item value="GetAll`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PickAWinnerTDD.Common.Interfaces.Repository.ISwagRepository">
+      <Item value="GetAllBySponsor`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PickAWinnerTDD.Common.Interfaces.Domain.ISwag">
+      <Item value="GetAllBySponsor`0" priority="2" />
+      <Item value="GetAll`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StructureMap.IInitializationExpression">
+      <Item value="For`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PickAWinnerTDD.Common.Interfaces.Domain.IWinner">
+      <Item value="DeleteAll`0" priority="1" />
+      <Item value="Insert`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:StructureMap.Configuration.DSL.Expressions.CreatePluginFamilyExpression`1">
+      <Item value="Use`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PickAWinnerTDD.Domain.Attendee">
+      <Item value="GetAll`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PickAWinnerTDD.Domain.Sponsor">
+      <Item value="GetAllThatProvidedSwag`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PickAWinnerTDD.Domain.Swag">
+      <Item value="GetAllBySponsor`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PickAWinnerTDD.UnitTesting.Helpers.StructureMapBootstrapper">
+      <Item value="BootstrapStructureMap`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PickAWinnerTDD.UI.StructureMapBootstrapper">
+      <Item value="BootstrapStructureMap`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PickAWinnerTDD.Service.AttendeeService">
+      <Item value="GetAll`0" priority="1" />
+      <Item value="ResetAllHasWon`0" priority="0" />
+      <Item value="GetAllEligible`0" priority="1" />
+      <Item value="SetHasWon`0" priority="1" />
+      <Item value="InsertAll`0" priority="0" />
+      <Item value="DeleteAll`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PickAWinnerTDD.Service.SponsorService">
+      <Item value="GetAllThatProvidedSwag`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PickAWinnerTDD.Service.WinnerService">
+      <Item value="DeleteAll`0" priority="0" />
+      <Item value="Insert`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PickAWinnerTDD.Service.SwagService">
+      <Item value="GetAllBySponsor`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IOrderedEnumerable`1">
+      <Item value="ToList`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:White.Core.UIItems.WindowItems.Window">
+      <Item value="Get`0" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@White.Core.UIItems.Finders.SearchCriteria">
+      <Item value="ByText`0" priority="1" />
+      <Item value="ByAutomationId`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:White.Core.UIItems.Button">
+      <Item value="Click`0" priority="4" />
+      <Item value="Visible" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:White.Core.UIItems.Panel">
+      <Item value="Visible" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:White.Core.UIItems.Label">
+      <Item value="Text" priority="1" />
+      <Item value="ShouldNotEqual`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="16E7FA46-AB79-4CE7-B362-5E00B50CE36E/f:WinnerServiceTests.cs" caret="539" fromTop="18" />
+      <File id="E5E3CE1A-CE5E-4FFE-BA96-DE08B33B3589/d:Stubs/d:DataAccess/f:AttendeeRepositoryStub.cs" caret="879" fromTop="30" />
+      <File id="997DE444-F79E-448C-B95B-0749D1BC9AD4/d:Interfaces/d:Domain/f:IAttendee.cs" caret="418" fromTop="12" />
+      <File id="93D19FCE-133C-4D3D-AE27-DFB92142AB35/f:Attendee.cs" caret="1476" fromTop="30" />
+      <File id="E5E3CE1A-CE5E-4FFE-BA96-DE08B33B3589/d:Stubs/d:Domain/f:AttendeeStub.cs" caret="203" fromTop="4" />
+      <File id="CB15900D-CB1C-41CD-A48B-38B96618B959/f:StructureMapDependencyResolverTests.cs" caret="0" fromTop="0" />
+      <File id="1D87392E-3E7D-4FF9-8BF3-B22CA8F72B75/d:Mocking/f:SwagTests.cs" caret="573" fromTop="20" />
+      <File id="5402F322-4301-4B8E-AC69-7EDFF074AF40/f:SponsorRepositoryTests.cs" caret="1856" fromTop="46" />
+      <File id="D8F62923-9F78-49E5-A7DC-38B7B6F6996B/f:SponsorRepository.cs" caret="466" fromTop="12" />
+      <File id="1D87392E-3E7D-4FF9-8BF3-B22CA8F72B75/d:Mocking/f:AttendeeTests.cs" caret="4236" fromTop="28" />
+      <File id="A2767856-ECD4-473B-9E63-D9820ED9AFFF/d:Stubbing/f:WinnerServiceTests.cs" caret="1169" fromTop="36" />
+      <File id="997DE444-F79E-448C-B95B-0749D1BC9AD4/d:Interfaces/d:Service/f:IAttendeeService.cs" caret="423" fromTop="12" />
+      <File id="A2767856-ECD4-473B-9E63-D9820ED9AFFF/d:Stubbing/f:AttendeeServiceTests.cs" caret="2312" fromTop="34" />
+      <File id="16E7FA46-AB79-4CE7-B362-5E00B50CE36E/f:AttendeeServiceTests.cs" caret="646" fromTop="18" />
+      <File id="99CA1B3A-DB0A-470C-B7A2-DE01249AE262/f:AttendeeTests.cs" caret="3335" fromTop="16" />
+      <File id="997DE444-F79E-448C-B95B-0749D1BC9AD4/d:Interfaces/d:Repository/f:IAttendeeRepository.cs" caret="453" fromTop="14" />
+      <File id="D8F62923-9F78-49E5-A7DC-38B7B6F6996B/f:AttendeeRepository.cs" caret="3273" fromTop="17" />
+      <File id="5402F322-4301-4B8E-AC69-7EDFF074AF40/f:AttendeeRepositoryTests.cs" caret="2965" fromTop="15" />
+      <File id="4789C7BD-4218-4D95-AA40-0DD6EED77A42/f:MainWindow.xaml" caret="0" fromTop="0" />
+      <File id="68987212-2B33-4F89-BA8A-87D2C160DBDD/f:ApplicationTests.cs" caret="547" fromTop="20" />
+      <File id="68987212-2B33-4F89-BA8A-87D2C160DBDD/f:MainWindow_AdminMenuOptionClicked_Tests.cs" caret="462" fromTop="12" />
+      <File id="68987212-2B33-4F89-BA8A-87D2C160DBDD/f:MainWindow_InitialStartUp_Tests.cs" caret="963" fromTop="18" />
+      <File id="68987212-2B33-4F89-BA8A-87D2C160DBDD/f:MainWindow_PickAWinnerMenuOptionClicked_Tests.cs" caret="2351" fromTop="25" />
+      <File id="1D87392E-3E7D-4FF9-8BF3-B22CA8F72B75/d:Stubing/f:AttendeeTests.cs" caret="0" fromTop="0" />
+      <File id="1D87392E-3E7D-4FF9-8BF3-B22CA8F72B75/d:Stubing/f:WinnerTests.cs" caret="837" fromTop="28" />
+      <File id="A2767856-ECD4-473B-9E63-D9820ED9AFFF/d:Mocking/f:SwagServiceTests.cs" caret="1007" fromTop="37" />
+      <File id="7A52EAC1-B2F7-4D0F-A57F-F77470684664/f:AttendeeService.cs" caret="771" fromTop="28" />
+      <File id="4789C7BD-4218-4D95-AA40-0DD6EED77A42/f:MainWindow.xaml.cs" caret="6397" fromTop="24" />
+      <File id="A2767856-ECD4-473B-9E63-D9820ED9AFFF/d:Mocking/f:AttendeeServiceTests.cs" caret="985" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="68987212-2B33-4F89-BA8A-87D2C160DBDD/f:MainWindow_PickAWinnerMenuOptionClicked_Tests.cs" caret="2916" fromTop="36" />
+      <File id="68987212-2B33-4F89-BA8A-87D2C160DBDD/f:MainWindow_PickAWinnerMenuOptionClicked_Tests.cs" caret="3086" fromTop="20" />
+      <File id="68987212-2B33-4F89-BA8A-87D2C160DBDD/f:MainWindow_PickAWinnerMenuOptionClicked_Tests.cs" caret="3167" fromTop="24" />
+      <File id="68987212-2B33-4F89-BA8A-87D2C160DBDD/f:MainWindow_PickAWinnerMenuOptionClicked_Tests.cs" caret="3852" fromTop="36" />
+      <File id="68987212-2B33-4F89-BA8A-87D2C160DBDD/f:MainWindow_PickAWinnerMenuOptionClicked_Tests.cs" caret="3938" fromTop="40" />
+      <File id="68987212-2B33-4F89-BA8A-87D2C160DBDD/f:MainWindow_PickAWinnerMenuOptionClicked_Tests.cs" caret="4376" fromTop="40" />
+      <File id="68987212-2B33-4F89-BA8A-87D2C160DBDD/f:MainWindow_PickAWinnerMenuOptionClicked_Tests.cs" caret="4132" fromTop="17" />
+      <File id="68987212-2B33-4F89-BA8A-87D2C160DBDD/f:MainWindow_PickAWinnerMenuOptionClicked_Tests.cs" caret="4132" fromTop="10" />
+      <File id="68987212-2B33-4F89-BA8A-87D2C160DBDD/f:MainWindow_PickAWinnerMenuOptionClicked_Tests.cs" caret="6081" fromTop="34" />
+      <File id="68987212-2B33-4F89-BA8A-87D2C160DBDD/f:MainWindow_AdminMenuOptionClicked_Tests.cs" caret="3445" fromTop="30" />
+      <File id="68987212-2B33-4F89-BA8A-87D2C160DBDD/f:MainWindow_AdminMenuOptionClicked_Tests.cs" caret="3349" fromTop="26" />
+      <File id="68987212-2B33-4F89-BA8A-87D2C160DBDD/f:MainWindow_PickAWinnerMenuOptionClicked_Tests.cs" caret="3420" fromTop="18" />
+      <File id="68987212-2B33-4F89-BA8A-87D2C160DBDD/f:MainWindow_PickAWinnerMenuOptionClicked_Tests.cs" caret="3610" fromTop="26" />
+      <File id="68987212-2B33-4F89-BA8A-87D2C160DBDD/f:MainWindow_PickAWinnerMenuOptionClicked_Tests.cs" caret="3610" fromTop="30" />
+      <File id="68987212-2B33-4F89-BA8A-87D2C160DBDD/f:MainWindow_InitialStartUp_Tests.cs" caret="3380" fromTop="45" />
+      <File id="68987212-2B33-4F89-BA8A-87D2C160DBDD/f:MainWindow_InitialStartUp_Tests.cs" caret="3183" fromTop="39" />
+      <File id="68987212-2B33-4F89-BA8A-87D2C160DBDD/f:MainWindow_PickAWinnerMenuOptionClicked_Tests.cs" caret="6069" fromTop="43" />
+      <File id="4789C7BD-4218-4D95-AA40-0DD6EED77A42/f:MainWindow.xaml.cs" caret="4643" fromTop="30" />
+      <File id="4789C7BD-4218-4D95-AA40-0DD6EED77A42/f:MainWindow.xaml.cs" caret="4982" fromTop="33" />
+      <File id="68987212-2B33-4F89-BA8A-87D2C160DBDD/f:MainWindow_PickAWinnerMenuOptionClicked_Tests.cs" caret="6070" fromTop="24" />
+      <File id="68987212-2B33-4F89-BA8A-87D2C160DBDD/f:MainWindow_PickAWinnerMenuOptionClicked_Tests.cs" caret="1085" fromTop="10" />
+      <File id="5402F322-4301-4B8E-AC69-7EDFF074AF40/f:AttendeeRepositoryTests.cs" caret="4045" fromTop="22" />
+      <File id="D8F62923-9F78-49E5-A7DC-38B7B6F6996B/f:AttendeeRepository.cs" caret="3258" fromTop="17" />
+      <File id="5402F322-4301-4B8E-AC69-7EDFF074AF40/f:AttendeeRepositoryTests.cs" caret="5222" fromTop="41" />
+      <File id="68987212-2B33-4F89-BA8A-87D2C160DBDD/f:MainWindow_PickAWinnerMenuOptionClicked_Tests.cs" caret="3610" fromTop="37" />
+      <File id="4789C7BD-4218-4D95-AA40-0DD6EED77A42/f:MainWindow.xaml" caret="0" fromTop="0" />
+      <File id="A2767856-ECD4-473B-9E63-D9820ED9AFFF/d:Mocking/f:AttendeeServiceTests.cs" caret="1027" fromTop="21" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.9\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

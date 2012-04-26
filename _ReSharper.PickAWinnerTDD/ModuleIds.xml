@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="4789C7BD-4218-4D95-AA40-0DD6EED77A42" ModuleId="PickAWinnerTDD.UI" />
+  <Module PersistentId="7A52EAC1-B2F7-4D0F-A57F-F77470684664" ModuleId="PickAWinnerTDD.Service" />
+  <Module PersistentId="997DE444-F79E-448C-B95B-0749D1BC9AD4" ModuleId="PickAWinnerTDD.Common" />
+</Modules>

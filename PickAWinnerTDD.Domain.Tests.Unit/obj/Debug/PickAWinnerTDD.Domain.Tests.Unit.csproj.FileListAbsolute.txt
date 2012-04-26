@@ -1,0 +1,15 @@
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.Domain.Tests.Unit\bin\Debug\PickAWinnerTDD.Domain.Tests.Unit.dll
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.Domain.Tests.Unit\bin\Debug\PickAWinnerTDD.Domain.Tests.Unit.pdb
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.Domain.Tests.Unit\obj\Debug\PickAWinnerTDD.Domain.Tests.Unit.dll
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.Domain.Tests.Unit\obj\Debug\PickAWinnerTDD.Domain.Tests.Unit.pdb
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.Domain.Tests.Unit\bin\Debug\PickAWinnerTDD.Common.dll
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.Domain.Tests.Unit\bin\Debug\PickAWinnerTDD.Domain.dll
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.Domain.Tests.Unit\bin\Debug\Rhino.Mocks.dll
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.Domain.Tests.Unit\bin\Debug\Should.dll
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.Domain.Tests.Unit\bin\Debug\PickAWinnerTDD.Common.pdb
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.Domain.Tests.Unit\bin\Debug\PickAWinnerTDD.Domain.pdb
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.Domain.Tests.Unit\bin\Debug\PickAWinnerTDD.DataAccess.dll
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.Domain.Tests.Unit\bin\Debug\PickAWinnerTDD.DataAccess.pdb
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.Domain.Tests.Unit\bin\Debug\PickAWinnerTDD.UnitTesting.dll
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.Domain.Tests.Unit\bin\Debug\PickAWinnerTDD.UnitTesting.pdb
+D:\Dev\PickAWinnerTDD\PickAWinnerTDD.Domain.Tests.Unit\obj\Debug\PickAWinnerTDD.Domain.Tests.Unit.csprojResolveAssemblyReference.cache

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A2767856-ECD4-473B-9E63-D9820ED9AFFF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PickAWinnerTDD.Service.Tests.Unit</RootNamespace>
+    <AssemblyName>PickAWinnerTDD.Service.Tests.Unit</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+	<ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Rhino.Mocks">
+      <HintPath>..\packages\RhinoMocks.3.6\lib\Rhino.Mocks.dll</HintPath>
+    </Reference>
+    <Reference Include="Should">
+      <HintPath>..\packages\Should.1.1.12.0\lib\Should.dll</HintPath>
+    </Reference>
+    <Reference Include="StructureMap, Version=2.6.2.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Mocking\AttendeeServiceTests.cs" />
+    <Compile Include="Mocking\SponsorServiceTests.cs" />
+    <Compile Include="Mocking\SwagServiceTests.cs" />
+    <Compile Include="Mocking\WinnerTests.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Stubbing\AttendeeServiceTests.cs" />
+    <Compile Include="Stubbing\SponsorServiceTests.cs" />
+    <Compile Include="Stubbing\SwagServiceTests.cs" />
+    <Compile Include="Stubbing\WinnerServiceTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PickAWinnerTDD.Common\PickAWinnerTDD.Common.csproj">
+      <Project>{997DE444-F79E-448C-B95B-0749D1BC9AD4}</Project>
+      <Name>PickAWinnerTDD.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PickAWinnerTDD.Domain\PickAWinnerTDD.Domain.csproj">
+      <Project>{93D19FCE-133C-4D3D-AE27-DFB92142AB35}</Project>
+      <Name>PickAWinnerTDD.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PickAWinnerTDD.Service\PickAWinnerTDD.Service.csproj">
+      <Project>{7A52EAC1-B2F7-4D0F-A57F-F77470684664}</Project>
+      <Name>PickAWinnerTDD.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PickAWinnerTDD.UnitTesting\PickAWinnerTDD.UnitTesting.csproj">
+      <Project>{E5E3CE1A-CE5E-4FFE-BA96-DE08B33B3589}</Project>
+      <Name>PickAWinnerTDD.UnitTesting</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
