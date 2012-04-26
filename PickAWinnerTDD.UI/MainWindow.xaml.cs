@@ -139,7 +139,10 @@ namespace PickAWinnerTDD.UI {
         }
 
         private void SetSwagDetails(SwagDTO swag) {
-            SwagImage.Source = CreateBitmapImage(swag.ImageLocation);
+            if (!string.IsNullOrEmpty(swag.ImageLocation))
+                SwagImage.Source = CreateBitmapImage(swag.ImageLocation);
+            else
+                SwagImage.Source = null;
             SwagName.Text = swag.Name;
         }
 
